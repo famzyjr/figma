@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;600&family=Barlow:wght@100&family=Cabin&family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,100&family=Roboto:ital,wght@0,400;1,300;1,700&family=Source+Code+Pro:wght@200&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #F6F6F6;
+}
+
+li {
+  list-style: none;
+  margin: 20px;
+  margin-right: 50px;
+  position: relative;
+  right: 200px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+li a {
+  text-decoration: none;
+  color: #454545;
+}
+
+h1 {
+  color: #5F51FC;
+  margin-right: 800px;
+}
+
+.book {
+  background-color: #5F51FC;
+  width: 170px;
+  height: 40px;
+  border-radius: 100px;
+  position: relative;
+  top: -73px;
+  left: 500px;
+  margin-left: 800px;
+}
+
+p a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: #FFFFFF;
+  position: relative;
+  top: 5px;
+  font-size: 1.33rem;
+
+}
+
+.container-One {
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+  background-image: url(img/Lady.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding: 137px 767px 138px 47px;
+  border-radius: 20px;
+}
+
+.gradient {
+  background: linear-gradient(#131032 0.67%, rgba(68, 64, 165, 0.67) 4.9%, rgba(31, 41, 49, 0.00) 95.07%);
+  height: 650px;
+  width: 900px;
+  position: absolute;
+  top: 157px;
+  margin-top: -20px;
+  left: 200px;
+  padding-left: 212px;
+  border-radius: 20px;
+}
+
+
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  width: 500px;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.para {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.subcon-one {
+  margin-left: -180px;
+  margin-top: 100px;
+}
+
+
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-left: -150px;
+}
+
+.button-one {
+  background-color: #504a91;
+  width: 170px;
+  height: 50px;
+  border-radius: 100px;
+  margin-top: 22px;
+}
+
+.ancore {
+  color: white;
+  margin-left: 50px;
+
+}
+
+.button-two {
+  background-color: white;
+  height: 40px;
+  border-radius: 50px;
+  margin-top: 25px;
+  height: 50px;
+
+}
+
+span a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: #5F51FC;
+  position: relative;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+}
+
+
+.container-Two {
+  margin-left: 490px;
+  margin-top: 200px;
+  font-weight: 500;
+}
+
+.service {
+  font-size: 2rem;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.experience {
+  margin-left: 50px;
+  font-size: 1.5rem;
+}
+
+.sub-section-one {
+  display: flex;
+  gap: 100px;
+  margin-top: 110px;
+  margin-left: -300px;
+}
+
+
+.icons {
+  margin-left: 120px;
+  position: relative;
+  top: 25px;
+  background-color: rgba(211, 211, 211, 0.699);
+  width: 50px;
+  border-radius: 20px;
+}
+
+h4 {
+  margin-left: 50px;
+  font-size: 1.5em;
+  position: relative;
+  top: 25px;
+}
+
+.sub-para {
+  width: 300px;
+  margin-left: 50px;
+  font-size: 1.2rem;
+}
+
+.container-three {
+  background-image: url('img/Cars-background.jpeg');
+  /* width: 200px; */
+  height: 00px;
+  /* margin-left: 200px; */
+  /* margin-top: 440px; */
+  padding: 40px, 0px, 40px, 0px
+}
+
+.background {
+  background-image: url(img/Cars-background.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 100px;
+}
+
+h5 {
+  color: white;
+  font-size: 2rem;
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.search-button-one {
+  background-color: #000000;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  position: relative;
+  top: -50px;
+  right: 270px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-left: 800px;
+
+}
+
+.ancore {
+  color: #FFF;
+  text-align: center;
+  align-content: center;
+
+}
+
+.Search-bar {
+  width: 100%;
+  max-width: 700px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  left: 400px;
+}
+
+.Search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+}
+
+.search-icon {
+  position: relative;
+  top: 7px;
+  width: 25px;
+  left: 20px;
+}
+
+.container-four {
+  position: relative;
+  top: 400px;
+
+}
+
+.dis {
+  margin-left: 300px;
+
+}
+
+.benz {
+  position: relative;
+  bottom: -5px;
+  width: 2%;
+  right: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-left: 30px;
+}
+
+.Toyota {
+  background-color: #5F51FC;
+  /* width: 100px; */
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 20px;
+  margin-left: 20px;
+
+}
+
+.cars-container {
+  margin-top: 20px;
+  width: 459px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.car-one {
+  border-radius: 5px;
+}
+
+.audi-header {
+  margin-top: -20px;
+  margin-left: 30px;
+}
+
+.audi-para {
+  margin-top: 70px;
+  /* margin-left: 20px; */
+  font-weight: 900;
+  font-style: bold;
+  font-size: 1.9em;
+  position: relative;
+  right: 150px;
+  line-height: 0px;
+}
+
+.audi-symbol {
+  color: #5F51FC;
+  font-size: 1.3em;
+}
+
+.audi-span {
+  margin-top: -20px;
+  margin-left: 15px;
+}
+
+.icon-location {
+  position: relative;
+  top: 5px;
+  left: 4px;
+}
+
+.cars-sub {
+  background-color: lightgrey;
+  border-radius: 5px;
+  height: 220px;
+}
+
+.container-five {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 500px;
+  margin-left: 50px;
+}
+
+.container-six {
+  background-color: lightgray;
+  height: 650px;
+  margin-top: 150px;
+  margin-left: 200px;
+  width: 70%;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sub-one-span {
+  font-size: 1.2rem;
+  position: relative;
+  left: 40px;
+}
+
+.sub-one-header {
+  color: #000000;
+  line-height: 45px;
+}
+
+.sub-one-img {
+  width: 500px;
+  margin-top: 76px;
+  margin-left: 50px;
+}
+
+.sub-two-icon {
+  position: relative;
+  left: -40px;
+  top: 50px;
+  background-color: white;
+  border-radius: 50px;
+
+}
+
+.sub-two {
+  margin-top: 50px;
+  margin-left: 150px;
+  height: 20px;
+}
+
+.sub-two-header {
+  font-size: 1.4rem;
+}
+
+.sub-two-para {
+  font: 1em sans-serif;
+}
+
+.sub-two-botton-one {
+  background-color: #504a91;
+  width: 170px;
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 100px;
+  margin-top: 22px;
+}
+
+.sub-two-botton-two {
+  background-color: white;
+  width: 170px;
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 100px;
+  margin-top: 22px;
+}
+
+.now {
+  color: #5F51FC;
+  ;
+}
+
+.sub-two-bottons {
+  display: flex;
+  margin-left: -20px;
+  gap: 10px;
+}
+
+.container-seven {
+  background: #2A2929;
+  height: 720px;
+  margin-top: 150px;
+  margin-left: 200px;
+  width: 70%;
+}
+
+.container-seven-header {
+  color: #FFFFFF;
+}
+
+.con-seven-para {
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+
+  line-height: 40px;
+}
+
+.container-seven-content {
+  margin-left: 350px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+p span {
+  margin-left: 150px;
+}
+
+.word {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-one {
+  border-radius: 12px;
+  width: 200px;
+  height: 51px;
+  position: relative;
+  right: 20px;
+}
+
+.input-two {
+  border-radius: 12px;
+  width: 400px;
+  height: 51px;
+  margin: 20px;
+  position: relative;
+  left: -5px;
+  padding: 8px 30px 8px 25px;
+}
+
+.input-icon-one {
+  position: relative;
+  left: 180px;
+  top: 5px;
+  z-index: 11;
+}
+
+.input-icon-two {
+  width: 20px;
+  position: relative;
+  top: 65px;
+  left: 20px;
+  z-index: 11;
+}
+
+.con-seven-button {
+  border-radius: 10px;
+  width: 400px;
+  height: 51px;
+  margin: 20px;
+  background: #5F51FC;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 50px;
+  padding: 25px 20px 34px 20px;
+}
+
+.container-eight {
+  margin-left: 500px;
+  line-height: 10px;
+}
+
+.con-eight-header {
+  font-size: 45px;
+}
+
+.con-eight-para {
+  font-size: 20px;
+  position: relative;
+  top: -50px;
+  margin-left: 100px;
+}
+
+.frames {
+  position: relative;
+  left: 700px;
+  bottom: 40px;
+  cursor: pointer;
+}
+
+.first-con {
+  background-color: lightgrey;
+  /* border-radius: 5px ; */
+  width: 200px;
+  padding-right: 150px;
+  padding-left: 100px;
+  padding-top: 50px;
+  height: 150px;
+}
+
+.con-eight-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  position: relative;
+  right: 450px;
+}
+
+.first-con-img {
+  width: 50px;
+  margin-top: -20px;
+}
+
+.con-header {
+  position: relative;
+  bottom: 20px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.con-span {
+  position: relative;
+  left: 50px;
+  font-size: 1.2rem;
+  color: #FF530E;
+}
+
+.con-para {
+  width: 600px;
+  margin-left: -70px;
+  margin-top: -5px;
+  line-height: 20px;
+}
+
+.sub-con {
+  position: relative;
+  left: -70px;
+}
+
+.emojis {
+  position: relative;
+  left: 90px;
+  top: -50px
+}
+
+.emojis-two {
+  position: relative;
+  left: 130px;
+  top: -45px
+}
+
+.emojis-four {
+  position: relative;
+  left: 100px;
+  top: -50px
+}
+
+
+.emojis-five {
+  position: relative;
+  left: 130px;
+  top: -50px
+}
+
+.blue {
+  position: relative;
+  left: 20px;
+}
+
+.brand-header{
+  font-size: 40px;
+  position: relative;
+  left: 250px;
+  font-family:  'Arial Narrow Bold', sans-serif sans-serif;
+  font-weight: 500;
+}
+
+.container-nine{
+  margin-left: 400px;
+  margin-top: 150px;
+
+}
+.brads-logos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container-ten{
+background-color: lightgray;
+height: 700px;
+margin-top: 50px;
+text-align: center;
+}
+
+.con-ten-header{
+position: relative;
+top: 100px;
+}
+
+.con-ten-text{
+  /* width: 700px;*/
+  font-size: 1.7rem;
+  color: black;
+  /* text-align: center; */
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+.con-ten-para{
+  line-height: 30px;
+  font-size: 1.2em;
+}
+
+
+.driver-con{
+  background-color: white;
+  border-radius: 5px;
+  height: 420px;
+  width: 500px;
+  position: relative; 
+  top: 100px;
+  left: 100px;
+}
+
+svg {
+  background-position: center;
+  /* background-image: url(img/Cars-background.jpeg); */
+}
